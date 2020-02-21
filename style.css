@@ -1,0 +1,100 @@
+/* Gneral */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+body {
+  position: relative;
+  height: 100vh;
+  background: #555;
+}
+
+/* Amalfi */
+#amalfi {
+  width: 90%;
+  height: 90%;
+  background-image: url('img/amalfi.jpg');
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+
+}
+
+#amalfi-txt {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.amalfi-laoverly {
+  background-color: rgba(0, 0, 0, 0.37);
+  width: 100%;
+  height: 100%;
+}
+
+/* Venezia */
+
+#venezia  {
+  width: 90%;
+  height: 90%;
+  background-image: url('img/venezia.jpg');
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 110%;
+  transform: translateX(-50%);
+}
+
+#venezia-txt {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.venezia-laoverly {
+  background-color: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 100%;
+}
+
+/* Castelmezzano */
+
+#Castelmezzano  {
+  width: 90%;
+  height: 90%;
+  background-image: url('img/castelmezzano.jpg');
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 210%;
+  transform: translateX(-50%);
+}
+
+#Castelmezzano-txt {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Castelmezzano-laoverly {
+  background-color: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 100%;
+}
