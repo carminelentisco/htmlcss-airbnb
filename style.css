@@ -8,6 +8,9 @@
   font-family: 'Montserrat';
 }
 
+body {
+  background-color: #e6e6e6;
+}
 /* Amalfi */
 
 #amalfi {
@@ -97,5 +100,10 @@
 .castelmezzano-laoverly {
   background-color: rgba(0, 0, 0, 0.35);
   width: 100%;
+  height: 100%;
+}
+
+.hover:hover {
+  background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
 }
