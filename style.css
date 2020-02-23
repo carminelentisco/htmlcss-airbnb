@@ -1,109 +1,96 @@
-/* Gneral */
-
+/* General */
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat';
   height: 100vh;
 }
 
-body {
-  background-color: #e6e6e6;
-}
+
 /* Amalfi */
-
 #amalfi {
-  position: relative;
-  background-image: url(img/amalfi.jpg);
-  width: 90%;
+  /* Dimensione */
   height: 90%;
+  width: 90%;
+  /* Posizonamento Contenitore */
+  position: relative;
   left: 50%;
-  transform: translate(-50%, 10%);
-}
-
-#amalfi-txt {
-  text-transform: uppercase;
-  text-decoration: underline;
-  color: white;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%);
-  font-size: 200%;
-  font-weight: 300;
-
-}
-
-.amalfi-laoverly {
-  background-color: rgba(0, 0, 0, 0.37);
-  width: 100%;
-  height: 100%;
+  transform: translate(-50%, 5%);
+  /* Contenuto */
+  background-image: url(img/amalfi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Venezia */
-
-#venezia  {
-  position: relative;
-  background-image: url(img/venezia.jpg);
-  width: 90%;
+#venezia {
+  /* Dimensone */
   height: 90%;
+  width: 90%;
+  margin-top: 5%;
+  /* Posizionamento */
+  position: relative;
   left: 50%;
-  transform: translate(-50%, 10%);
-  margin-top: 3%;
-}
-
-#venezia-txt {
-  text-transform: uppercase;
-  text-decoration: underline;
-  color: white;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%);
-  font-size: 200%;
-  font-weight: 300;
-}
-
-.venezia-laoverly {
-  background-color: rgba(0, 0, 0, 0.35);
-  width: 100%;
-  height: 100%;
+  transform: translate(-50%, 5%);
+  /* Contenuto */
+  background-image: url(img/venezia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Castelmezzano */
-
-#castelmezzano  {
-  position: relative;
-  background-image: url(img/castelmezzano.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 90%;
+#castelmezzano {
+  /* Dimensone */
   height: 90%;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* Posizionamento */
+  position: relative;
   left: 50%;
-  transform: translate(-50%, 10%);
-  margin-top: 6%;
+  transform: translate(-50%, 5%);
+  /* Contenuto */
+  background-image: url(img/castelmezzano.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#castelmezzano-txt {
-  text-transform: uppercase;
-  text-decoration: underline;
+/* layer 2 */
+.layer-2 {
+  /* Dimensione */
+  height: 100%;
+  /* Contenuto */
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Testo immagini */
+.txt {
+  /* Dimensone span */
+  height: auto;
+  /* Posizione testo */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Formattazione testo */
   color: white;
+  font-size: 300%;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  /*Dimensone  */
+  height: 0px;
+  /* Posizione */
   position: absolute;
   left: 50%;
-  top: 50%;
   transform: translateX(-50%);
-  font-size: 200%;
-  font-weight: 300;
+  /* Contenuto */
+  border-top: 3px solid red;
 }
 
-.castelmezzano-laoverly {
-  background-color: rgba(0, 0, 0, 0.35);
-  width: 100%;
-  height: 100%;
-}
-
-.hover:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 100%;
+/* Hover */
+.txt:hover {
+  color: rgba(255, 77, 77, 0.7);
 }
