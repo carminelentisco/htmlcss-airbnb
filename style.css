@@ -68,7 +68,7 @@
 }
 
 /* Testo immagini */
-.txt {
+a {
   /* Dimensone span */
   height: auto;
   /* Posizione testo */
@@ -97,6 +97,6 @@
 }
 
 /* Hover */
-.txt:hover {
+a:hover {
   color: rgba(255, 77, 77, 0.7);
 }
