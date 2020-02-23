@@ -18,6 +18,8 @@
   background-image: url(img/amalfi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  border: 10px solid black;
+  text-transform: uppercase;
 }
 
 /* Venezia */
@@ -34,6 +36,8 @@
   background-image: url(img/venezia.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  border: 10px solid black;
+  text-transform: uppercase;
 }
 
 /* Castelmezzano */
@@ -51,6 +55,8 @@
   background-image: url(img/castelmezzano.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  border: 10px solid black;
+  text-transform: uppercase;
 }
 
 /* layer 2 */
